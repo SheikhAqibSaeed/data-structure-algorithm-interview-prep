@@ -40,7 +40,7 @@
 const arr: number[] = [10, 20, 30];
 
 console.log("First:", arr[0]);
-console.log("Second:", arr[1]);
+console.log("Second:", arr[1]);```
 
 ---
 
