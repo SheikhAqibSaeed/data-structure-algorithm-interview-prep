@@ -34,11 +34,13 @@
 4. Size? → Fixed
 5. Use? → Lists, marks
 
-**TypeScript Example**
-let arr: number[] = [10, 20, 30];
+**TypeScript**
+### 💡 Example
+```ts
+const arr: number[] = [10, 20, 30];
 
-console.log("First element:", arr[0]);
-console.log("Second element:", arr[1]);
+console.log("First:", arr[0]);
+console.log("Second:", arr[1]);
 
 ---
 
