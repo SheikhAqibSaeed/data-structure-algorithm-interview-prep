@@ -36,11 +36,35 @@
 
 **TypeScript**
 ### 💡 Example
-```ts
+
 const arr: number[] = [10, 20, 30];
 
 console.log("First:", arr[0]);
-console.log("Second:", arr[1]);```
+console.log("Second:", arr[1]);
+
+class Node {
+  data: number;
+  next: Node | null;
+
+  constructor(data: number) {
+    this.data = data;
+    this.next = null;
+  }
+}
+
+const first = new Node(10);
+const second = new Node(20);
+const third = new Node(30);
+
+first.next = second;
+second.next = third;
+
+let current: Node | null = first;
+
+while (current) {
+  console.log(current.data);
+  current = current.next;
+}
 
 ---
 
