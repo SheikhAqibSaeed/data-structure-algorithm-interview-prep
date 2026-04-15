@@ -2,15 +2,25 @@
 
 **Short Explanation:**
 👉 Stores data in **continuous memory (index-based)**
+
 - 1
+
 ![Image](https://images.openai.com/static-rsc-4/TaRLkT1f2jEiHxqhcMSrGUfGlvpYI1jbE0RPamDe8BsuDce2G9qUKBa5ZvRxBBoargpr4jq_gzIMP-nswRfrmRJWWMK75lTwGcdl8htmemD2LXRQ6hpvKOxXzAJ3acFurXJNT7MqYgw-vxJ6C4wnKvwKkSMpt3hYGkPBSEBy3O4Jd6b9HJEh9Q9ZMKVak5rQ?purpose=fullsize)
+
 - 2
+
 ![Image](https://images.openai.com/static-rsc-4/e6rDD65S5UIcQzyodw52OnLJWcMMf3Kc7imcvVAjmUTL-uY5SlEfU0oAXw2Rdl5bT0Tb-Xmr40oCtpzURYDsMlxWvRI42ORLSPbZC5NQfs2MMEa7hn1ybNxIJZpLJUUSq9scCH1zXBIZM2DwXdgI9sl4OCTmdA5B5lDi6XAuzmqHpPXd0bnynozRWqJxaYXk?purpose=fullsize)
+
 - 3
+  
 ![Image](https://images.openai.com/static-rsc-4/ybCMUKY8xHCT-Rc9rtfTTHdaO2w0wHpqcq0jm7enHe_nw0aIOQfSyLddcXvKG2WpyhBxuyF_Qb_S47KVjDt4qYbXRVVvBKjQ6mbMNt6_sSnaLCE7vFI9UlyvtbpkcCUq6LBkK7Um330ONF0WkVsJymPChWO4vM_qocDtipHpDLAi2NHXbDxreagL5ZHD2kOX?purpose=fullsize)
+
 - 4
+  
 ![Image](https://images.openai.com/static-rsc-4/v2TvNKq8sx8EmYu5UXQt4w_HplC7a6WG3jRFwFp6AdbnzWjoJ6-B__k7ohiL3fjb6TwKvPMOKYaKR9Op81YmS03O5nMKlEzdFqKJGuBLpIRp9v7ZHAwSsTcMjqF4uEm6sZoX8Y7em2ZWrpRM21JzWR1EVJ2jqDpRb7wSutCnXifQ65rOsG7R5R7Gigd02g-C?purpose=fullsize)
+
 - 5
+  
 ![Image](https://images.openai.com/static-rsc-4/N-7jg9gNFD9Ih_91L5qnV2aPNJEpfDmT9pVn8oJvo24hlmE_AVhFX9gYSv6HyizKO_EUO-kiIWLVbBWBajYf4RY43JAhpPzfRKXdRZuXqFzR_TSZKzF2yjj8Ewx6NQ6GDwU0Xj53l3jz9XoRt0s325ZPfbQ90qgGXhUf4LXyggzUvYXz54tnnLKM1m2whVDu?purpose=fullsize)
 
 **Example:**
@@ -24,6 +34,12 @@
 4. Size? → Fixed
 5. Use? → Lists, marks
 
+**TypeScript Example**
+let arr: number[] = [10, 20, 30];
+
+console.log("First element:", arr[0]);
+console.log("Second element:", arr[1]);
+
 ---
 
 # 🔹 LINKED LIST
@@ -31,16 +47,27 @@
 **Short Explanation:**
 👉 Nodes connected using **pointers (links)**
 
+- 1
+  
 ![Image](https://images.openai.com/static-rsc-4/FFb5yyqbY0pmw_8jJJtjCzsE7VMYsGZKNdPdGRDtkKjQpBnqg_aIQHJL7Zkp7_1f9CuS1yERPFumom-umdqMijsgRNVFKLL5iTCFsISPIWz48HYlCrQLuuvUjGLMKIPjW77ai1Ed_EnF6_rPFEbdsJHbSfRCZnF6BdHDjYQjYFDhRaOAGhp6HTfH588VkzE-?purpose=fullsize)
 
+- 2
+  
 ![Image](https://images.openai.com/static-rsc-4/QakWb0GMOF8EZSDmAA6PZtc7xJpY_EujBhIPdq_y2crCW7DZFSVaJe9y3iX-2M2pCP8ybamdE1fD1EALPhgf4jtWrD7ZjIkOXKPPbVh1Nh3lAYrB1RXQCeuVUrNUqO6DKGXVUFtQjfuTbhCipX-7Drt45IQd6oiGlU028yR2WjH9X58Y0-zWxzfiu_n5V4KB?purpose=fullsize)
 
+- 3
+  
 ![Image](https://images.openai.com/static-rsc-4/50Q8HBSIuBoWjjdhl6wZuWK3gKj45uFhqKscEAwrJrU_igKIYkhE9YkRglsefcog4u5k0Lib6tSlCb7ItMC7VZRXJDLCW0uLf2NUt_AZl6NMIfwDii2k-6CoxMKz0uEImOh5e8b52tNehREG9aVObt6WNWrgw_3hCvNQmSQYMa3Tx1WhhBvBQ7yp7w8OmUeY?purpose=fullsize)
 
+- 4
+  
 ![Image](https://images.openai.com/static-rsc-4/CD2qq0Ckls007Ui6pm3STdtx6MhueIJgwcHYmxa9h__wlN51Ofb-nyIU29s1JWawEk6zlKGwXwscbB8W-USdozdfvybLdky6jx4Khh3cgYzEoYaKmdGXHTjAa2QYpBvOWA6dPZEWH3RKHvuE83KJ7mWI50MAyFOEMrxClIG7Tpcx5ZgR-5MluVs7hgAb1MpM?purpose=fullsize)
 
+- 5
+  
 ![Image](https://images.openai.com/static-rsc-4/2K2_Xlq7iI3yUirfimzC5ES8meb8Q3mpeqqwBJ0QMoiurBUQHeR_ru_oTTnBkh8QSB58Fjytr8NQllGldYr_sGVMRk8tdoyQpPlanxjmS3TQ_tAVygVMLsSrmFUstEfbkU723JaQ9Laq_o_Z6hdeXGAdmkflZGLm37w7kBju1sWMvUqw5kUPJxRA13SDaIk_?purpose=fullsize)
 
+- 6
 ![Image](https://images.openai.com/static-rsc-4/w4sHfXOqcS4K1xOLqy2-4bsBJ8eK50M9qN9-v8k59n7m1S5qW8jw-C4aG1YzrFS2wa1YIn4-cIcaqUQLw8sCZrzjB57pFecSzbOxr5NucZQ0Z_MUDPXvmi5uuSBkbYW11WojWDrbXmm3ZOtjhCRcT0ogQp6QJweMXv90A9v5eBtYyPXYX00Vvu5544nJWzKa?purpose=fullsize)
 
 **Example:**
@@ -53,6 +80,30 @@
 3. Access? → O(n)
 4. Types? → Singly, Doubly
 5. Use? → Dynamic data
+
+**TypeScript Example**
+class Node {
+  data: number;
+  next: Node | null;
+
+  constructor(data: number) {
+    this.data = data;
+    this.next = null;
+  }
+}
+
+let first = new Node(10);
+let second = new Node(20);
+let third = new Node(30);
+
+first.next = second;
+second.next = third;
+
+let current: Node | null = first;
+while (current !== null) {
+  console.log(current.data);
+  current = current.next;
+}
 
 ---
 
@@ -86,6 +137,17 @@ Push 10,20 → Pop = 20
 4. Use? → Undo
 5. Error? → Overflow
 
+**TypeScript Example**
+let stack: number[] = [];
+
+stack.push(10);
+stack.push(20);
+stack.push(30);
+
+console.log("Top element:", stack[stack.length - 1]);
+console.log("Removed:", stack.pop());
+console.log("Now top:", stack[stack.length - 1]);
+
 ---
 
 # 🔹 QUEUE
@@ -117,6 +179,16 @@ Push 10,20 → Pop = 20
 3. Use? → Scheduling
 4. Types? → Circular, Priority
 5. Difference? → FIFO vs LIFO
+
+**TypeScript Example**
+let queue: number[] = [];
+
+queue.push(10);
+queue.push(20);
+queue.push(30);
+
+console.log("Removed:", queue.shift());
+console.log("Front now:", queue[0]);
 
 ---
 
@@ -150,6 +222,27 @@ Root = 10 → children = 5, 20
 4. Use? → File system
 5. Traversal? → Inorder
 
+**TypeScript Example**
+class TreeNode {
+  data: number;
+  left: TreeNode | null;
+  right: TreeNode | null;
+
+  constructor(data: number) {
+    this.data = data;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+let root = new TreeNode(10);
+root.left = new TreeNode(5);
+root.right = new TreeNode(20);
+
+console.log("Root:", root.data);
+console.log("Left Child:", root.left?.data);
+console.log("Right Child:", root.right?.data);
+
 ---
 
 # 🔹 GRAPH
@@ -180,6 +273,17 @@ A — B — C
 4. Use? → Maps
 5. Algo? → BFS, DFS
 
+
+**TypeScript Example**
+let graph: { [key: string]: string[] } = {
+  A: ["B", "C"],
+  B: ["A", "D"],
+  C: ["A"],
+  D: ["B"]
+};
+
+console.log("Connections of A:", graph["A"]);
+
 ---
 
 # 🎯 FINAL QUICK MEMORY
@@ -191,9 +295,6 @@ A — B — C
 * Tree → Hierarchy
 * Graph → Network
 
----
+**ESSENTIAL DATA STRUCTURES FIG**
 
-If you want next level 🚀
-✔ PDF notes with images
-✔ Coding examples
-✔ Exam MCQs with answers
+<img width="2816" height="1536" alt="DSA-AI-img" src="https://github.com/user-attachments/assets/ca7a05ef-0773-44f0-939d-38c9865d3083" />
